@@ -15,22 +15,22 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Proxima Nova Bold.otf": {
+	"\/assets\/fonts\/Proxima-Nova-Bold.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Proxima Nova Bold.otf",
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Bold.otf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Proxima Nova Light.otf": {
+	"\/assets\/fonts\/Proxima-Nova-Light.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Proxima Nova Light.otf",
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Light.otf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Proxima Nova Semibold.otf": {
+	"\/assets\/fonts\/Proxima-Nova-Semibold.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Proxima Nova Semibold.otf",
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Semibold.otf",
 		"oF": 0
 		},
 	"\/assets\/img\/frankie.jpg": {
@@ -41,6 +41,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/frankie.png": {
+		"ft": 32768,
+		"iS": 731786,
+		"oA": 0,
+		"oAP": "\/assets\/img\/frankie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower.json": {
@@ -4941,6 +4952,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5005,6 +5026,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/scss\/styles.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -5013,8 +5044,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/scss\/styles.css",
-		"oF": 0,
+		"oAP": "\/css\/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}

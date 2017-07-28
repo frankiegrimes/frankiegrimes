@@ -1,0 +1,258 @@
+/*
+-------------------------------------------------
+-------------------------------------------------
+
+Frankie Grimes - Portfolio Site
+2017
+
+-------------------------------------------------
+-------------------------------------------------
+
+*/
+
+/* -----------------------------------------------------------------------*\
+ COLOURS
+\* -----------------------------------------------------------------------*/
+
+$light-blue: #1BE7FF;
+$dark-blue: #1E3888;
+$yellow: #FFCC33;
+$red: #FF3333;
+$purple: #4D137F;
+$light-grey: #CCCCCC;
+$dark-grey: #3A3335; 
+$green: #33CC99;
+
+
+/* -----------------------------------------------------------------------*\
+ FONT DECLARATIONS
+\* -----------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../assets/fonts/Proxima-Nova-Bold.eot') format('eot'), /* IE9 Compat Modes */
+       url('../assets/fonts/Proxima-Nova-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/Proxima-Nova-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/Proxima-Nova-Bold.svg') format('svg'), /* Legacy iOS */
+       url('../assets/fonts/Proxima-Nova-Bold.otf') format('otf'); 
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../assets/fonts/Proxima-Nova-Semibold.eot') format('eot'), /* IE9 Compat Modes */
+       url('../assets/fonts/Proxima-Nova-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/Proxima-Nova-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/Proxima-Nova-Semibold.svg') format('svg'), /* Legacy iOS */
+       url('../assets/fonts/Proxima-Nova-Semibold.otf') format('otf'); 
+       font-weight: normal; 
+       font-style: normal; 
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../assets/fonts/Proxima-Nova-Light.eot') format('eot'), /* IE9 Compat Modes */
+       url('../assets/fonts/Proxima-Nova-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/Proxima-Nova-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/Proxima-Nova-Light.svg') format('svg'), /* Legacy iOS */
+       url('../assets/fonts/Proxima-Nova-Light.otf') format('otf'); 
+       font-weight: normal; 
+       font-style: normal; 
+}
+
+/* -----------------------------------------------------------------------*\
+ BODY FONT STYLES
+\* -----------------------------------------------------------------------*/
+
+
+body {
+  font-family: "ProximaNova-Semibold";
+}
+
+h1 {
+  font-family: "ProximaNova-Bold";
+}
+
+p {
+  font-family: "ProximaNova-Light";
+}
+
+/* -----------------------------------------------------------------------*\
+ Banner
+\* -----------------------------------------------------------------------*/
+
+
+
+.banner {
+  background: url('../assets/img/frankie.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 110vh;
+  margin-top: -10rem;
+} 
+
+.landing-text {
+	font-size: 4.5rem;
+	padding: 10rem;
+	padding-top: 20rem;
+	padding-bottom: 5rem;
+	font-family: "ProximaNova-Semibold";
+	color: red;
+	mix-blend-mode: multiply;
+}
+
+.landing-text-box {
+	color: $red;
+	font-family: "ProximaNova-Bold";
+	border: 1px $red solid;
+	max-width: 20rem;
+	text-align: center;
+	margin-left: 32rem;
+	font-size: 2rem;
+	padding: 1rem 0rem;
+}
+
+.green {
+	color: $green;
+}
+
+.yellow {
+	color: $yellow;
+}
+
+.grey {
+	color: $dark-grey;
+}
+
+.blue {
+	color: $dark-blue;
+}
+
+.banner p {
+	color: $red;
+	mix-blend-mode: multiply;
+	font-size: 1.3rem;
+	padding: 0rem 20rem;
+	padding-bottom: 5rem;
+}
+
+/* -----------------------------------------------------------------------*\
+ NAVIGATION
+\* -----------------------------------------------------------------------*/
+
+.top-bar {
+    padding: 1rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+
+
+}
+
+.top-bar, .top-bar ul {
+  font-family: "ProximaNova-Bold";
+  font-size: 2rem;
+  padding-bottom: 0;
+  line-height: 1.3rem;
+	    background-color: transparent;
+	    z-index: 10;
+}
+
+.top-bar ul{
+
+}
+
+.top-bar a {
+  color: $green;
+}
+
+.top-bar a:hover {
+  color: $dark-grey;
+}
+
+
+
+/* -----------------------------------------------------------------------*\
+  FOOTER
+\* -----------------------------------------------------------------------*/
+
+footer {
+  background-color: #070707;
+}
+
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+}
+
+.footer-light {
+  background-color: #474747;
+  padding: 1rem;
+}
+
+.footer-light .row {
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-light img {
+  padding: 1rem;
+}
+
+footer svg {
+  height: 4rem;
+  width: 4rem;
+}
+
+footer svg:hover #facebook, footer svg:hover #twitter,
+footer svg:hover #instagram { 
+  fill: #555555;
+}
+
+footer a svg #facebook, footer a svg #twitter,
+footer a svg #instagram { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+svg:hover #logo {
+  fill: #212121;
+}
+
+svg:hover #logo {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.footer-menu {
+    background-color: #313131;
+    padding: 0.5rem;
+
+
+}
+
+.footer-menu a {
+    color: #fff;
+    font-size: 0.7rem;
+
+}
+
+.footer-menu a:hover {
+    color: #d5d5d5;
+    
+
+}
+
+.footer-menu ul {
+  line-height: 0.5rem;
+  text-align: center;
+}
