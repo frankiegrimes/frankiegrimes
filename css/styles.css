@@ -42,33 +42,51 @@ h1 {
 p {
   font-family: "ProximaNova-Light"; }
 
+/* -----------------------------------------------------------------------* NAVIGATION
+\* -----------------------------------------------------------------------*/
+.top-bar {
+  padding: 1rem;
+  text-transform: uppercase;
+  z-index: 2; }
+
+.top-bar, .top-bar ul {
+  font-family: "ProximaNova-Bold";
+  font-size: 2rem;
+  line-height: 1.3rem;
+  background-color: transparent; }
+
+.top-bar a {
+  color: #33CC99; }
+
+.top-bar a:hover {
+  color: #3A3335; }
+
 /* -----------------------------------------------------------------------* Banner
 \* -----------------------------------------------------------------------*/
 .banner {
-  background: url("../assets/img/frankie.png") no-repeat center center;
+  background: url("../assets/img/frankie.png") no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 110vh;
-  margin-top: -10rem; }
+  min-height: 101vh;
+  margin-top: -8rem; }
 
 .landing-text {
   font-size: 4.5rem;
-  padding: 10rem;
-  padding-top: 20rem;
-  padding-bottom: 5rem;
   font-family: "ProximaNova-Semibold";
   color: red;
-  mix-blend-mode: multiply; }
+  mix-blend-mode: multiply;
+  padding-top: 20rem; }
+
+.landing-sub-text {
+  padding-top: 5rem; }
 
 .landing-text-box {
   color: #FF3333;
   font-family: "ProximaNova-Bold";
   border: 1px #FF3333 solid;
-  max-width: 20rem;
   text-align: center;
-  margin-left: 32rem;
   font-size: 2rem;
-  padding: 1rem 0rem; }
+  padding: 1rem 0rem;
+  margin-top: 5rem; }
 
 .green {
   color: #33CC99; }
@@ -85,30 +103,17 @@ p {
 .banner p {
   color: #FF3333;
   mix-blend-mode: multiply;
-  font-size: 1.3rem;
-  padding: 0rem 20rem;
-  padding-bottom: 5rem; }
+  font-size: 1.3rem; }
 
-/* -----------------------------------------------------------------------* NAVIGATION
+/* -----------------------------------------------------------------------* Skills
 \* -----------------------------------------------------------------------*/
-.top-bar {
-  padding: 1rem;
-  margin-left: 10rem;
-  text-transform: uppercase; }
+#skills {
+  background-color: #FFCC33;
+  min-height: 100vh; }
 
-.top-bar, .top-bar ul {
-  font-family: "ProximaNova-Bold";
-  font-size: 2rem;
-  padding-bottom: 0;
-  line-height: 1.3rem;
-  background-color: transparent;
-  z-index: 10; }
-
-.top-bar a {
-  color: #33CC99; }
-
-.top-bar a:hover {
-  color: #3A3335; }
+#skills h1 {
+  color: #FF3333;
+  padding-top: 2rem; }
 
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/

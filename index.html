@@ -51,15 +51,14 @@
 
    as a web developer? Get it touch at frankjgrimes [at] gmail [dot] com! 
   -->
-
   <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle="example-menu"></button>
     </div>
 
-    <nav class="top-bar" id="example-menu">
+    <nav class="top-bar align-center" id="example-menu">
       <div class="top-bar">
         <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-          <li><a href="#">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
@@ -67,35 +66,53 @@
       </div>
     </nav>
 
+
     <section class="banner">
-
-      <div class="row">
-        <div class="columns">
-          <h1 class="landing-text" class="text-center">Responsive web development with <span class="green">HTML</span>, <span class="blue">CSS</span>, <span class="yellow">Javascript</span> and <span class="grey">Wordpress</span>.</h1>
-         </div>
-         </div>
-
-         <div class="row">
-         <div class="columns">
-         <p class="text-center">My name is Frankie Grimes. I’m a freelance front-end web developer based in Dublin, and I’d love to help you build your next project.</p>
-         </div>
-         </div>
-         <div class="row">
-         <div class="columns">
-          <a href="#">
-            
-               <div class="landing-text-box"><span class="text-center">LEARN MORE<span></div>
-    
-          </a>
+    <div class="grid-container">
+      <div class="grid-x grid-y grid-padding-y grid-padding-x align-center">
+        <div class="large-12 medium-10 small-8 cell">
+          <h1 class="landing-text" class="text-center">
+            Responsive web development with 
+            <span class="green">HTML</span>, 
+            <span class="blue">CSS</span>, 
+            <span class="yellow">Javascript</span> and 
+            <span class="grey">Wordpress</span>.
+          </h1>
         </div>
       </div>
+
+         <div class="grid-x grid-padding-x align-center">
+           <div class="large-8 medium-10 small-8 cell landing-sub-text">
+           <p class="text-center">My name is Frankie Grimes. I’m a freelance front-end web developer based in Dublin, and I’d love to help you build your next project.</p>
+           </div>
+          </div>
+
+           <div class="grid-x grid-padding-x align-center">
+             <div class="large-4 medium-4 small-8 cell">
+              <a href="#">
+                   <div class="landing-text-box">
+                     <span>LEARN MORE<span>
+                   </div>
+              </a>
+             </div>
+         </div>
+        </div>
 
   
  </section>
 
-    <section class="skills">
-          
-    </section>
+  <section id="skills">
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+        <h1 class="text-center">SKILLS</h1>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
 
     <section class="projects">
           
@@ -141,7 +158,7 @@
           </div>
           <div class="footer-menu hide-for-medium" >
             <div class="row">
-              <div class="columns columns">
+              <div class="columns">
               <ul class="vertical menu">
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Projects</a></li>

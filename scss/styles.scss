@@ -78,6 +78,39 @@ p {
   font-family: "ProximaNova-Light";
 }
 
+
+
+/* -----------------------------------------------------------------------*\
+ NAVIGATION
+\* -----------------------------------------------------------------------*/
+
+.top-bar {
+    padding: 1rem;
+    text-transform: uppercase;
+    z-index: 2;
+
+
+}
+
+.top-bar, .top-bar ul {
+  font-family: "ProximaNova-Bold";
+  font-size: 2rem;
+  line-height: 1.3rem;
+	    background-color: transparent;
+}
+
+.top-bar ul{
+
+}
+
+.top-bar a {
+  color: $green;
+}
+
+.top-bar a:hover {
+  color: $dark-grey;
+}
+
 /* -----------------------------------------------------------------------*\
  Banner
 \* -----------------------------------------------------------------------*/
@@ -85,32 +118,35 @@ p {
 
 
 .banner {
-  background: url('../assets/img/frankie.png') no-repeat center center;
+  background: url('../assets/img/frankie.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 110vh;
-  margin-top: -10rem;
+  min-height: 101vh;
+  margin-top: -8rem;
 } 
 
 .landing-text {
 	font-size: 4.5rem;
-	padding: 10rem;
-	padding-top: 20rem;
-	padding-bottom: 5rem;
 	font-family: "ProximaNova-Semibold";
 	color: red;
 	mix-blend-mode: multiply;
+	padding-top: 20rem;
+}
+
+.landing-sub-text {
+	padding-top: 5rem;
 }
 
 .landing-text-box {
 	color: $red;
 	font-family: "ProximaNova-Bold";
 	border: 1px $red solid;
-	max-width: 20rem;
 	text-align: center;
-	margin-left: 32rem;
 	font-size: 2rem;
 	padding: 1rem 0rem;
+	margin-top: 5rem;
 }
 
 .green {
@@ -133,43 +169,22 @@ p {
 	color: $red;
 	mix-blend-mode: multiply;
 	font-size: 1.3rem;
-	padding: 0rem 20rem;
-	padding-bottom: 5rem;
 }
 
 /* -----------------------------------------------------------------------*\
- NAVIGATION
+ Skills
 \* -----------------------------------------------------------------------*/
 
-.top-bar {
-    padding: 1rem;
-    margin-left: 10rem;
-    text-transform: uppercase;
-
-
+#skills {
+	background-color: $yellow;
+	min-height: 100vh;
 }
 
-.top-bar, .top-bar ul {
-  font-family: "ProximaNova-Bold";
-  font-size: 2rem;
-  padding-bottom: 0;
-  line-height: 1.3rem;
-	    background-color: transparent;
-	    z-index: 10;
-}
-
-.top-bar ul{
+#skills h1 {
+	color: $red;
+	padding-top: 2rem;
 
 }
-
-.top-bar a {
-  color: $green;
-}
-
-.top-bar a:hover {
-  color: $dark-grey;
-}
-
 
 
 /* -----------------------------------------------------------------------*\
