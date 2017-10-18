@@ -74,6 +74,14 @@ h1 {
   font-family: "ProximaNova-Bold";
 }
 
+h2 {
+  font-family: "ProximaNova-Bold";
+}
+
+h3 {
+    font-family: "ProximaNova-Semibold";
+}
+
 p {
   font-family: "ProximaNova-Light";
 }
@@ -177,12 +185,91 @@ p {
 
 #skills {
 	background-color: $yellow;
-	min-height: 100vh;
+  padding-bottom: 20rem;
 }
 
 #skills h1 {
 	color: $red;
 	padding-top: 2rem;
+  margin-bottom: 5rem;
+
+
+}
+
+#skills h2 {
+  color: $red;
+
+}
+
+.red-underline {
+  border-bottom: 2px solid $red;
+}
+
+#skills img {
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+
+}
+
+#skills p {
+  padding: 1rem 0rem;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------------------------------------------------*  PROJECTS
+\* -----------------------------------------------------------------------*/
+
+.projects {
+  background-color: #cccccc;
+  min-height: 100vh;
+}
+
+.projects h1 {
+   color: #FF3333;
+  padding-top: 2rem; 
+  margin-bottom: 5rem;
+}
+
+.projects .card {
+  border: none;
+}
+
+.projects .card-section {
+  position: relative;
+
+  color: white;
+  height: 0;
+  padding: 0;
+}
+
+.projects .card img {
+    filter: brightness(90%);
+}
+
+.projects .card-section h2 {
+  position: relative;
+    top: -10rem;
+   transform: translateY(-50%);
+}
+
+.projects .card img:hover {
+  filter: brightness(50%);
+    transform: scale(1.02);
+  transition: all ease 0.3s;
+
+
+} 
+
+
+
+.projects .card img {
 
 }
 

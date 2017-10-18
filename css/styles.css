@@ -39,6 +39,12 @@ body {
 h1 {
   font-family: "ProximaNova-Bold"; }
 
+h2 {
+  font-family: "ProximaNova-Bold"; }
+
+h3 {
+  font-family: "ProximaNova-Semibold"; }
+
 p {
   font-family: "ProximaNova-Light"; }
 
@@ -109,11 +115,76 @@ p {
 \* -----------------------------------------------------------------------*/
 #skills {
   background-color: #FFCC33;
-  min-height: 100vh; }
+  padding-bottom: 20rem; }
 
 #skills h1 {
   color: #FF3333;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  margin-bottom: 5rem; }
+
+#skills h2 {
+  color: #FF3333; }
+
+.red-underline {
+  border-bottom: 2px solid #FF3333; }
+
+#skills img {
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3rem; }
+
+#skills p {
+  padding: 1rem 0rem; }
+
+.flexcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* -----------------------------------------------------------------------*  PROJECTS
+\* -----------------------------------------------------------------------*/
+.projects {
+  background-color: #cccccc;
+  min-height: 100vh; }
+
+.projects h1 {
+  color: #FF3333;
+  padding-top: 2rem;
+  margin-bottom: 5rem; }
+
+.projects .card {
+  border: none; }
+
+.projects .card-section {
+  position: relative;
+  color: white;
+  height: 0;
+  padding: 0; }
+
+.projects .card img {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%); }
+
+.projects .card-section h2 {
+  position: relative;
+  top: -10rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+.projects .card img:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
 
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/
