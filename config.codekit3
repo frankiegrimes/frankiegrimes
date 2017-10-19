@@ -274,6 +274,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/frankie-mobile.png": {
+		"ft": 32768,
+		"iS": 188825,
+		"oA": 0,
+		"oAP": "\/assets\/img\/frankie-mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/frankie.jpg": {
 		"ft": 16384,
 		"iS": 443108,
@@ -359,11 +370,16 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/wordpress.png.tmp$$": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/img\/wordpress.png.tmp$$",
-		"oF": 0
+	"\/assets\/img\/wordpress.png": {
+		"ft": 32768,
+		"iS": 89474,
+		"oA": 0,
+		"oAP": "\/assets\/img\/wordpress.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower.json": {
 		"ft": 524288,
